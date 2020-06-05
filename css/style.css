@@ -6,7 +6,7 @@
 }
 
 header {
-    background-color: #ec722c5e;
+    background-color: #e48e5d;
     position: fixed;
     top: 0;
     height: 60px;
@@ -32,28 +32,34 @@ li{
     font-size: 28px;
     color: #4f93e6;
     text-transform: uppercase;
+    text-decoration-line: none;
 }
 
 li:hover {
     border-bottom: 2px solid #4f93e6;
 }
 
-.Namibia{
+a.link:visited, a.link:link {
+    text-decoration: none;
+    color: #4f93e6;
+}
+
+#Namibia{
     width: 100vw;
     height: 100vh;
     background: url("../img/Nam.jpg");
     background-size: cover;
     position: relative;
-    top:60px;
 }
-.Madagascar{
+#Madagascar{
     width: 100vw;
     height: 100vh;
     background: url("../img/Mad.jpg");
     background-size: cover;
     position: relative;
 }
-.Tailandia{
+
+#Tailandia{
     width: 100vw;
     height: 100vh;
     background: url("../img/Thai.jpg");
@@ -66,7 +72,6 @@ li:hover {
     background-color: rgba(205, 217, 218, 0.5);
     top: 0;
     left: 0;
-
 }
 
 .travel {
