@@ -27,8 +27,8 @@ header {
 
 li{
     display: inline-block;
-    line-height: 50px;
-    padding: 0 10px;
+    line-height: 58px;
+    padding: 0 20px;
     font-size: 28px;
     color: #4f93e6;
     text-transform: uppercase;
@@ -65,9 +65,8 @@ li:hover {
     position: absolute;
     background-color: rgba(205, 217, 218, 0.5);
     top: 0;
-    left:0;
-    bottom: 0;
-    right: 0;
+    left: 0;
+
 }
 
 .travel {
