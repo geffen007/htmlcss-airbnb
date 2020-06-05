@@ -72,6 +72,8 @@ a.link:visited, a.link:link {
     background-color: rgba(205, 217, 218, 0.5);
     top: 0;
     left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 .travel {
