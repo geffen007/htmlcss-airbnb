@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Architects Daughter', cursive;
+}
+
+header {
+    background-color: #ec722c5e;
+    position: fixed;
+    top: 0;
+    height: 60px;
+    width: 100vw;
+    text-align: center;
+    z-index: 1
+}
+
+#logo, nav {
+    display: inline-block;
+}
+
+#logo img{
+    height: 40px;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+li{
+    display: inline-block;
+    line-height: 50px;
+    padding: 0 10px;
+    font-size: 28px;
+    color: #4f93e6;
+    text-transform: uppercase;
+}
+
+li:hover {
+    border-bottom: 2px solid #4f93e6;
+}
+
+.Namibia{
+    width: 100vw;
+    height: 100vh;
+    background: url("../img/Nam.jpg");
+    background-size: cover;
+    position: relative;
+    top:60px;
+}
+.Madagascar{
+    width: 100vw;
+    height: 100vh;
+    background: url("../img/Mad.jpg");
+    background-size: cover;
+    position: relative;
+}
+.Tailandia{
+    width: 100vw;
+    height: 100vh;
+    background: url("../img/Thai.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    background-color: rgba(205, 217, 218, 0.5);
+    top: 0;
+    left:0;
+    bottom: 0;
+    right: 0;
+}
+
+.travel {
+    color: white;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.travel h1  {
+    text-shadow:5px 5px 5px black;
+}
