@@ -44,6 +44,18 @@ a.link:visited, a.link:link {
     color: #4f93e6;
 }
 
+#hamburger {
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+
+}
+
+#hamburger img {
+    height: 40px;
+}
+
 #Namibia{
     width: 100vw;
     height: 100vh;
